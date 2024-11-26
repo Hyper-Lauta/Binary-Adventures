@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-05-08" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3300" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <field id="tpd15" name="Notas" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#9933ff #ffff00 #ff0000 #00ff00 #cc33ff]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="26" uid="5caeed6a543e4bbc967d589b7264c6f3" name="Binary Adventures" color="#9933ff" meeting="false" start="2024-04-12" duration="41" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <task id="8" uid="cb8a732585e64057b093e233d74354d4" name="Programacion" color="#00ff00" meeting="false" start="2024-04-12" duration="16" complete="0" thirdDate="2024-04-12" thirdDate-constraint="0" expand="true">
+                <task id="12" uid="4b4a8c5f02704770b671445fc05c096a" name="Batocera/Programacion" meeting="false" start="2024-04-19" duration="5" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="10" uid="da82ba1ecc0240b889660c629b16a1c0" name="Bluetooth" meeting="false" start="2024-04-19" duration="11" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="0" uid="6fb0846a2ddd4f3fb0bd9c14589cc328" name="Crear Github" color="#cc33ff" meeting="true" start="2024-04-12" duration="0" complete="0" thirdDate="2024-04-08" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="14" uid="be59315315aa49f08ed3e21711f33368" name="Diseño" color="#ffff00" meeting="false" start="2024-04-19" duration="31" complete="0" thirdDate="2024-04-19" thirdDate-constraint="0" expand="true">
+                <task id="16" uid="1fec692efdfb47cfb9bbcbca1571bde0" name="Planos Carpinteria" meeting="false" start="2024-05-17" duration="1" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="15" uid="bbf223a0fd874ce48378aac29bc1076e" name="Diseño 3D Caja de joystick" meeting="false" start="2024-05-17" duration="11" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="19" uid="675fda486b4244e3925a430de886be2c" name="Diseño de Placas" meeting="false" start="2024-04-19" duration="11" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+            <task id="4" uid="d1331d3f85e3407fbdf700f91723ee8b" name="Hardware" color="#ff0000" meeting="false" start="2024-04-19" duration="36" complete="0" thirdDate="2024-04-05" thirdDate-constraint="0" expand="true">
+                <task id="13" uid="cfcca63fe68343c096517bff302af792" name="Batocera/Montaje" meeting="false" start="2024-04-19" duration="6" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="22" uid="3fd17a2df7df4c57a8e3d09a91212860" name="Mediciones 1" meeting="false" start="2024-05-10" duration="1" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+                <task id="18" uid="6b43b5539c694f928edafcfd1663193b" name="Cosmeticos" meeting="false" start="2024-05-31" duration="6" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="23" uid="22f601c48893498bb67907ec73cdb7da" name="Mediciones2" meeting="false" start="2024-05-17" duration="6" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+                <task id="11" uid="2f76a20a72874fc5be1e3b185da283bd" name="Carpinteria" meeting="false" start="2024-05-20" duration="10" complete="0" thirdDate="2024-04-03" thirdDate-constraint="0" expand="true"/>
+                <task id="20" uid="fb711476d170444181eb134bfafeaaee" name="Montaje de Placas" meeting="false" start="2024-05-10" duration="6" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+            </task>
+        </task>
+        <task id="27" uid="25b43dc3a63c46c7a84fdbb47d37f8e9" name="Fecha de Revision" meeting="false" start="2024-05-17" duration="1" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+        <task id="28" uid="3856588e39604c5d8409aa98a22de9e5" name="Informe Final" meeting="true" start="2024-06-10" duration="0" complete="0" thirdDate="2024-04-01" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
