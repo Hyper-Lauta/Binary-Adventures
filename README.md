@@ -8,8 +8,8 @@ Descripción:
 
 ## Características Destacadas 📌
 
-- Control de Velocidad del Personaje: Nuestro sistema inteligente ajusta la velocidad del personaje en función de tus movimientos en el joystick o los botones.🕹️
-- Encendido Automático: El arcade se activa automáticamente cuando alguien se acerca, gracias a nuestro sensor de movimiento y contactor.
+- Gran cantidad de videojuegos: Sumergete en un mundo de nostalgia con videojuegos de distintas consolas legendarias como NES, SNES, ATARI, SEGA y más.🕹️
+- Tamaño compacto: Arcade con un tamaño de sobre mesa, eficaz a la hora de optimizar espacio.
 - Comodidad a gusto: Con la capacidad de seleccionar entre jugar con mando a distancia o alambrico al sistema.
 
 ## Autores 🧙‍♂️
@@ -21,14 +21,14 @@ Descripción:
 ## Instrucciones de Uso 📜
 
 1. Enciende Binary Adventures y prepárate para la aventura.
-2. Controla la velocidad del personaje utilizando el joystick o los botones.
-3. Observa cómo el sistema PID ajusta la velocidad de manera inteligente.
+2. Selecciona en la interfaz de batocera la consola que desea emular.
+3. Disfrutar de una gran variedad de videojuegos retro.
+
 
 ## Requisitos 🗒️
 
 - Gabinete de arcade con pantalla, controles y altavoces.
 - ESP32 para la lectura de la entrada del joystick o los botones.
-- Sensor de movimiento y contactor para el encendido automático.
 - Usb o disco extraible donde instalar el sistema operativo 
 
 ## Configuración ⚙️
